@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaa834ac-e363-40fd-a75f-dd576c034b84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/com/atguigu/bigdata/java/Hellotest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/com/atguigu/bigdata/java/Java01_Var.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter01/Hello.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter02/Scala01_Var.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter03/Scala01_Swap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter04/Scala01_for.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala01_Function.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala02_Function.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala03_Function.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala04_Function.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala05_Function.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaLearning.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,19 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter01/Hello.scala">
+        <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala04_Function.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="313">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter02/Scala01_Var.scala">
+        <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala05_Function.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="265">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -41,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Object" />
         <option value="Class" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
@@ -71,6 +73,14 @@
         <option value="$PROJECT_DIR$/java/com/atguigu/bigdata/java/Java01_Var.scala" />
         <option value="$PROJECT_DIR$/java/com/atguigu/bigdata/java/Java01_Var.java" />
         <option value="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter02/Scala01_Var.scala" />
+        <option value="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter02/Scala01_Swap.scala" />
+        <option value="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter03/Scala01_Swap.scala" />
+        <option value="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter04/Scala01_for.scala" />
+        <option value="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala01_Function.scala" />
+        <option value="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala02_Function.scala" />
+        <option value="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala03_Function.scala" />
+        <option value="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala04_Function.scala" />
+        <option value="$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala05_Function.scala" />
       </list>
     </option>
   </component>
@@ -90,7 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -123,20 +132,33 @@
             </path>
             <path>
               <item name="ScalaLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601890131513" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601971216768" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.bigdata.chapter05" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,56 +172,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hellotest">
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.bigdata.chapter01.Hello" />
+  <component name="RunManager" selected="Application.Scala05_Function">
+    <configuration name="Scala01_Function" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.bigdata.chapter05.Scala01_Function" />
       <module name="ScalaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.bigdata.chapter05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hellotest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.bigdata.java.Hellotest" />
+    <configuration name="Scala01_for" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.bigdata.chapter04.Scala01_for" />
       <module name="ScalaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.bigdata.chapter04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartialFuncDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="PartialFuncDemo" />
+    <configuration name="Scala03_Function" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.bigdata.chapter05.Scala03_Function" />
       <module name="ScalaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.bigdata.chapter05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaArray" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ScalaArray" />
+    <configuration name="Scala04_Function" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.bigdata.chapter05.Scala04_Function" />
       <module name="ScalaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.bigdata.chapter05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaCallName" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ScalaCallName" />
+    <configuration name="Scala05_Function" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.bigdata.chapter05.Scala05_Function" />
       <module name="ScalaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.bigdata.chapter05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ScalaCallName" />
-      <item itemvalue="Application.PartialFuncDemo" />
-      <item itemvalue="Application.ScalaArray" />
-      <item itemvalue="Application.Hello" />
-      <item itemvalue="Application.Hellotest" />
+      <item itemvalue="Application.Scala01_for" />
+      <item itemvalue="Application.Scala01_Function" />
+      <item itemvalue="Application.Scala03_Function" />
+      <item itemvalue="Application.Scala04_Function" />
+      <item itemvalue="Application.Scala05_Function" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hellotest" />
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="Application.ScalaArray" />
-        <item itemvalue="Application.PartialFuncDemo" />
-        <item itemvalue="Application.ScalaCallName" />
+        <item itemvalue="Application.Scala05_Function" />
+        <item itemvalue="Application.Scala04_Function" />
+        <item itemvalue="Application.Scala03_Function" />
+        <item itemvalue="Application.Scala01_Function" />
+        <item itemvalue="Application.Scala01_for" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601453030759</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="scala基础数据结构学习">
+      <created>1601951256505</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601951256505</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -249,8 +308,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21983914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,7 +319,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3611898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26912183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,13 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ScalaFor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ScalaCallName.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -342,20 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ScalaArray.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/Hello.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -366,24 +406,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scala/Hello.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/Hello.scala" />
     <entry file="jar://D:/scala/lib/scala-library.jar!/scala/Predef.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter01/Hello.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -394,13 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/atguigu/bigdata/java/Java01_Var.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/com/atguigu/bigdata/java/Java01_Var.scala" />
     <entry file="file://$PROJECT_DIR$/java/com/atguigu/bigdata/java/Java01_Var.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -410,8 +431,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter02/Scala01_Var.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="380">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter01/Hello.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter02/Scala01_Swap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter03/Scala01_Swap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScalaArray.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScalaFor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/scala/lib/scala-library.jar!/scala/util/control/Breaks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter04/Scala01_for.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="e#38#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala01_Function.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala02_Function.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala03_Function.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala04_Function.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala/com/atguigu/bigdata/chapter05/Scala05_Function.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
         </state>
       </provider>
     </entry>
