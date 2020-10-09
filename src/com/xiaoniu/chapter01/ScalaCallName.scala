@@ -1,3 +1,5 @@
+package com.xiaoniu.chapter01
+
 import java.util.Date
 
 /**
